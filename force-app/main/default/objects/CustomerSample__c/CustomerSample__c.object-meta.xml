@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject>
+    <pluralLabel>Customer Samples</pluralLabel>
+    <fullName>CustomerSample__c</fullName>
+    <description>Managing Customer personal information</description>
+    <nameField>
+        <label>Customer Name</label>
+        <type>Text</type>
+    </nameField>
+    <enableBulkApi>true</enableBulkApi>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <enableHistory>true</enableHistory>
+    <enableActivities>true</enableActivities>
+    <enableSearch>true</enableSearch>
+    <enableFeeds>true</enableFeeds>
+    <enableReports>true</enableReports>
+    <sharingModel>Private</sharingModel>
+    <label>Customer Sample</label>
+    <deploymentStatus>Deployed</deploymentStatus>
+</CustomObject>
