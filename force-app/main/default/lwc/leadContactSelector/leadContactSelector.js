@@ -14,11 +14,6 @@ export default class LeadContactSelector extends LightningElement {
     @track errorMessage;
 
     // Use setter so loadContacts runs when recordId is injected by Salesforce
-        // Use setter so loadContacts runs when recordId is injected by Salesforce
-    // Use setter so loadContacts runs when recordId is injected by Salesforce
-    // Use setter so loadContacts runs when recordId is injected by Salesforce
-    // Use setter so loadContacts runs when recordId is injected by Salesforce
-
     @api
     set recordId(value) {
         this._recordId = value;

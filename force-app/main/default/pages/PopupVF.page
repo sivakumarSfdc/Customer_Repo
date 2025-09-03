@@ -1,6 +1,6 @@
-<apex:page>
+<apex:page >
     <h2>VF to LWC with Message Passing</h2>
-    <apex:form>
+    <apex:form >
         <apex:commandButton value="Open LWC Popup" onclick="openPopup(); return false;" />
     </apex:form>
 

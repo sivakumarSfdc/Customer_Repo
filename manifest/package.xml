@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
+   <!-- <types>
         <members>*</members>
         <name>ApexClass</name>
     </types>
@@ -18,6 +18,10 @@
     </types>
     <types>
         <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>ApexTrigger</name>
     </types>
     <types>
@@ -31,6 +35,15 @@
     <types>
         <members>*</members>
         <name>StaticResource</name>
+    </types> -->
+    <types>
+    <members>Employee__c</members>
+    <name>CustomObject</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
+
     <version>62.0</version>
 </Package>
